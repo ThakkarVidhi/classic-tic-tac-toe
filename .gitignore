@@ -1,0 +1,8 @@
+# Operating System files
+Thumbs.db         # Windows system files
+
+# Log files
+*.log
+
+# IDE specific files
+.vscode/

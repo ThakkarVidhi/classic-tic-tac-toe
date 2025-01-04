@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+    <div id = "start_menu">
+        <h1 id="title">Tic Tac Toe Game</h1>
+        <button id = "start_btn" onclick = "main()" >Start Game</button>
+        <div class = "row" id = "user-select" >
+            <label for = "choice" class="col-sm-6 col-form-label">User 1 Choice : O or X ??</label> 
+            <div class="col-sm-3">
+                <input type = "text" id = "choice" name = "choice" class = "input-box" required/>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2 id="user_title"></h2>
+    <h3 id="wrong_title">Please Select Empty Place !!</h3>
+    <div id="container">
+        <div class="row">
+
+            <div type="button" id="0" class="btn" onclick="clicking(this)">
+            </div>
+
+            <div type="button" id="1" class="btn" onclick="clicking(this)">
+            </div>
+
+            <div type="button" id="2" class="btn" onclick="clicking(this)">
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div type="button" id="3" class="btn" onclick="clicking(this)">
+            </div>
+
+            <div type="button" id="4" class="btn" onclick="clicking(this)">
+            </div>
+
+            <div type="button" id="5" class="btn" onclick="clicking(this)">
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div type="button" id="6" class="btn" onclick="clicking(this)">
+            </div>
+
+            <div type="button" id="7" class="btn" onclick="clicking(this)">
+            </div>
+
+            <div type="button" id="8" class="btn" onclick="clicking(this)">
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

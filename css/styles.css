@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+#title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  3%;
+    color: #FEF2BF;
+}
+
+#user-select
+{
+    font-size: 1.5rem;
+    margin:  2%;
+    color: #bffed9;
+}
+
+#user_title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin:  2%;
+    color: #bffed9;
+}
+
+#wrong_title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    margin:  2%;
+    color: #febfbf;
+    display: none;
+}
+
+#start_btn
+{
+    padding: 1%;
+    background-color: #febfbf;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.disabled_button
+{
+    pointer-events: none;
+}
+
+.input-box
+{
+    border-radius: 5px;
+    padding : 10px;
+    width : 50%;
+    border: 1px solid black;
+    background-color: #bffed9;
+    margin-left: 1.5%;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
+}
+  
+#container {
+    display: none;
+    width: 50%;
+    margin: auto;
+}
+
+.row
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 10px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+
+.game-over 
+{
+    background-color: rgb(54, 114, 54);
+    opacity: 0.8;
+}
+
+.game-draw 
+{
+    background-color: rgb(194, 131, 4);
+    opacity: 0.8;
+}
+
+.pressing {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.pressed
+{
+    font-size: 10rem;
+    background-color: white;
+}
+
+.win
+{
+    color: red;;
+}
+
+@media (max-width:650px) 
+{
+    #title{
+        margin: 8%;
+    }
+    #start_btn{
+        margin-top: 30%;
+        margin: 5%;
+    }
+    #user-select{
+        margin: 5%;
+    }
+    #container{
+        width:100% !important;
+    } 
+    .btn{
+        height: 150px !important;
+    }
+    .pressed
+    {
+        font-size: 8rem !important;
+    }
+}
+
+@media (min-width:650px) and (max-width : 1250px) 
+{
+    #container{
+        width:100% !important;
+    }
+}
